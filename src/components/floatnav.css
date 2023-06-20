@@ -1,0 +1,8 @@
+
+.dis{
+    display: flex;
+    position: relative;
+    margin-top: 400px;
+    margin-left: -70px;
+    gap: 0.5rem;
+}
