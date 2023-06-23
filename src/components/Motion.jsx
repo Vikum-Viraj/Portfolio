@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import Navbar from "./Navbar";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
-import moon from "../assets/moon.png"
+import moon from "../assets/space.svg"
 import styled from "styled-components";
 
 const Motion = () => {
@@ -90,7 +90,7 @@ const Img = styled.img`
               <OrbitControls enableZoom={false} />
               <ambientLight intensity={1} />
               <directionalLight position={[3, 2, 1]} />
-              <Sphere args={[1, 100, 200]} scale={2.4}>
+              <Sphere args={[1, 100, 200]} scale={2.3}>
                 <MeshDistortMaterial
                   color="#3d1c56"
                   attach="material"
@@ -100,7 +100,7 @@ const Img = styled.img`
               </Sphere>
             </Suspense>
           </Canvas>
-          <Img src={moon}/>
+          <Img style={{width:'550px',height:'550px',marginRight:'30px'}} src={moon}/>
         </Right>
     </Section>
   )

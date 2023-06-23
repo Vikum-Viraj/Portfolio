@@ -26,8 +26,8 @@ const Feedbacks = ({ text }) => {
     },
     hidden: {
       opacity: 0,
-      x: -20,
-      y: -20,
+    
+      y: -50,
       transition: {
         type: "spring",
         damping: 12,

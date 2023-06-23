@@ -27,12 +27,19 @@ import {
   
 import sliit from "../assets/sliit.png"
 import orelit from "../assets/orel.png"
-import lumbini from "../assets/lumbini.png"
+import lumbini from "../assets/lum.png"
 import scl from "../assets/scl.png"
 import mui from "../assets/mi2.png"
 import bis from "../assets/bis.png"
 import sup from "../assets/sup.png"
 import evt from "../assets/evt.png"
+import movie from "../assets/movie.png"
+import mem from "../assets/mem.png"
+import fig from "../assets/fig.png"
+import user from "../assets/user.png"
+import nw from "../assets/nw.png"
+import {BsPatchCheckFill} from "react-icons/bs"
+import veri from "../assets/ver.png"
 
   export const navLinks = [
     {
@@ -41,7 +48,7 @@ import evt from "../assets/evt.png"
     },
     {
       id: "work",
-      title: "Work",
+      title: "Education",
     },
     {
       id: "contact",
@@ -52,23 +59,27 @@ import evt from "../assets/evt.png"
   const services = [
     {
       title: "Web Developer",
-      icon: web,
+      icon: veri,
     },
     {
       title: "React Developer",
-      icon: mobile,
+      icon: veri,
     },
     {
       title: "Backend Developer",
-      icon: backend,
+      icon: veri,
     },
     {
-      title: "Ebay Seller",
-      icon: creator,
+      title: "Kotlin Developer",
+      icon: veri,
     },
     {
-      title: "Java developer",
-      icon: creator,
+      title: "Java Developer",
+      icon: veri,
+    },
+    {
+      title: "UI Designer",
+      icon: veri,
     },
   ];
   
@@ -129,7 +140,7 @@ import evt from "../assets/evt.png"
       iconBg: "#383E56",
       date: "july 2021 - to present",
       points: [
-        "Currently Following a Bsc(Hons) degree programme specialising in software engineering in Sri Lanaka Institute of Information Technology",
+        "Currently, pursuing  a Bsc(Hons) degree programme specialising in software engineering in Sri Lanaka Institute of Information Technology",
        
       ],
     },
@@ -220,7 +231,7 @@ import evt from "../assets/evt.png"
         },
       ],
       image: bis,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/SLIITITP/y2_s2_wd_it_01-itp_wd_b08_g03.git",
     },
     {
       name: "Supply chain management system",
@@ -241,7 +252,7 @@ import evt from "../assets/evt.png"
         },
       ],
       image: sup,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/SLIITITP/y2_s2_wd_it_01-itp_wd_b08_g03.git",
     },
     {
       name: "Event Planing System",
@@ -266,30 +277,121 @@ import evt from "../assets/evt.png"
         },
       ],
       image: evt,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Vikum-Viraj/Event-Management-System.git",
     },
     {
-      name: "Trip Guide",
+      name: "Expense Tracker App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Group project on find solution for current economic crisis and develop a Mobile application as solution developed a Expense tracker app for second year second semester Project. My functions was manage expense category,User Login and manage expense.",
       tags: [
         {
-          name: "nextjs",
+          name: "Kotlin",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Room DB",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: nw,
+      source_code_link: "https://github.com/hirankaushalya/Expense-tracker.git",
     },
-
+    {
+      name: "Movie App",
+      description:
+        "Developed a Movie app using MERN stack basically allow users to search and book movies and add movies by admin side",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Node Js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Mongo DB",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: movie,
+      source_code_link: "https://github.com/IT21161810/Movie_App.git",
+    },
+    {
+      name: "Bank App",
+      description:
+        "Designed a prototype for a bank app in figma",
+      tags: [
+        {
+          name: "Figma",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Splash plugins",
+          color: "green-text-gradient",
+        },
+      ],
+      image: fig,
+      
+    },
+    {
+      name: "Memeories App",
+      description:
+        "Developed a Memories website in MERN stack allow users to add memeoris and relevant pictures",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Node Js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Mongo DB",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mem,
+      source_code_link: "https://github.com/Vikum-Viraj/Memories-App.git",
+    },
+    {
+      name: "Mern Seacrh",
+      description:
+        "Create a react search function connect with mongo db with simple CRUD functionality",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Node Js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Mongo DB",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: user,
+      source_code_link: "https://github.com/Vikum-Viraj/User_Manage_App.git",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

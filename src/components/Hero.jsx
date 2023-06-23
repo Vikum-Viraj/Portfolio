@@ -11,8 +11,10 @@ import Motion from "./Motion";
 import styled from "styled-components";
 import link from "../assets/link.png"
 import git from "../assets/git.png"
+import ins from "../assets/ins.png"
 import "./floatnav.css"
 import { Link } from "react-router-dom";
+import mv from "../assets/mv.jpg"
 
 const Hero = () => {
 
@@ -37,6 +39,7 @@ const Hero = () => {
    <div className="dis">
        <Link to="https://www.linkedin.com/in/vikum-viraj/"><img src={link}/></Link>
        <Link to="https://github.com/Vikum-Viraj"> <img src={git}/></Link>
+       <Link to="https://www.instagram.com/_.vikum._.viraj_/"> <img style={{width:'50px',height:'50px',marginTop:'8px',marginLeft:'5px'}} src={ins}/></Link>
    </div>
       </div>
 
@@ -46,7 +49,7 @@ const Hero = () => {
       <div style={{marginLeft:'800px'}}>
       <Motion/>
       </div>
-    
+   
     </section>
   );
 };
