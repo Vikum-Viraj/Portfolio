@@ -78,6 +78,7 @@ const Contact = () => {
         <h5 className={styles.sectionHeadText}>Contact me.</h5>
 
         <form
+        
           ref={formRef}
           onSubmit={handleSubmit}
           className='mt-12 flex flex-col gap-8'

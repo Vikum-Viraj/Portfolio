@@ -40,6 +40,7 @@ import user from "../assets/user.png"
 import nw from "../assets/nw.png"
 import {BsPatchCheckFill} from "react-icons/bs"
 import veri from "../assets/ver.png"
+import ex from "../assets/ex.png"
 
   export const navLinks = [
     {
@@ -297,7 +298,7 @@ import veri from "../assets/ver.png"
           color: "pink-text-gradient",
         },
       ],
-      image: nw,
+      image: ex,
       source_code_link: "https://github.com/hirankaushalya/Expense-tracker.git",
     },
     {
