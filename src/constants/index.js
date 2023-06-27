@@ -258,7 +258,7 @@ import ex from "../assets/ex.png"
     {
       name: "Event Planing System",
       description:
-        "A event planing system basicaaly allow user to plan a event and do payment ",
+        "The Event Planning System is a web-based application developed using JSP and Servlets that allows users to manage and organize events. The system has essential CRUD functions and features user login, payment handling, and event management. ",
       tags: [
         {
           name: "jsp",
@@ -329,7 +329,7 @@ import ex from "../assets/ex.png"
     {
       name: "Bank App",
       description:
-        "Designed a prototype for a bank app in figma",
+        "Designed a UI prototype for a bank app in figma",
       tags: [
         {
           name: "Figma",
@@ -346,7 +346,7 @@ import ex from "../assets/ex.png"
     {
       name: "Memeories App",
       description:
-        "Developed a Memories website in MERN stack allow users to add memeoris and relevant pictures",
+        "Developed a Memories app in MERN stack allow users to add memeoris and relevant pictures",
       tags: [
         {
           name: "React",
@@ -371,7 +371,7 @@ import ex from "../assets/ex.png"
     {
       name: "Mern Seacrh",
       description:
-        "Create a react search function connect with mongo db with simple CRUD functionality",
+        "Developed a react search function connect with mongo db with simple CRUD functionality",
       tags: [
         {
           name: "React",
