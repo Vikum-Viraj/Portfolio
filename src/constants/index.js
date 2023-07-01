@@ -41,6 +41,7 @@ import nw from "../assets/nw.png"
 import {BsPatchCheckFill} from "react-icons/bs"
 import veri from "../assets/ver.png"
 import ex from "../assets/ex.png"
+import shirt from "../assets/shirt.png"
 
   export const navLinks = [
     {
@@ -367,6 +368,31 @@ import ex from "../assets/ex.png"
       ],
       image: mem,
       source_code_link: "https://github.com/Vikum-Viraj/Memories-App.git",
+    },
+    {
+      name: "3D Web",
+      description:
+        "Developed a 3D web using react,react-fiber and threejs allow users to customize t-shirt design according to user preferences ",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "three js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React Js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Dalle API",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: shirt,
+      source_code_link: "https://github.com/Vikum-Viraj/3D-Web.git",
     },
     {
       name: "Mern Seacrh",
