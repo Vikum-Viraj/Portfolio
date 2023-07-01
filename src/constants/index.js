@@ -284,7 +284,7 @@ import shirt from "../assets/shirt.png"
     {
       name: "Expense Tracker App",
       description:
-        "Group project on find solution for current economic crisis and develop a Mobile application as solution developed a Expense tracker app for second year second semester Project. My functions was manage expense category,User Login and manage expense.",
+        "Group project on find solution for current economic crisis and develop a Mobile application called Expense tracker app for second year second semester Project. My role was manage expense category,User Login and manage expense.",
       tags: [
         {
           name: "Kotlin",
