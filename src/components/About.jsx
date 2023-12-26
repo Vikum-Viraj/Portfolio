@@ -59,9 +59,9 @@ const About = () => {
 innovative software solutions. with the keen interest in web designing. and I thrive in a team environment 
 where I can contribute my skills and knowledge while also learning from others. I believe in fostering a friendly and
 supportive atmosphere, and I enjoy educating and sharing my expertise with team
-members. I have always maintained a positive atitude to navigate through obstacles 
+members. I have always maintained a positive attitude to navigate through obstacles 
 with resilience and determination.I am eager to contribute my skills and passion with
-everyone who passonate about it which values innovation and teamwork.
+everyone who passionate about it which values innovation and teamwork.
 
       </motion.p>
 

@@ -72,7 +72,7 @@ import shirt from "../assets/shirt.png"
       icon: veri,
     },
     {
-      title: "Kotlin Developer",
+      title: "React Native Developer",
       icon: veri,
     },
     {
