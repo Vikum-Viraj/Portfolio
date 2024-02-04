@@ -37,8 +37,7 @@ import movie from "../assets/movie.png"
 import mem from "../assets/mem.png"
 import fig from "../assets/fig.png"
 import user from "../assets/user.png"
-import nw from "../assets/nw.png"
-import {BsPatchCheckFill} from "react-icons/bs"
+import blog from "../assets/blog.png"
 import veri from "../assets/ver.png"
 import ex from "../assets/ex.png"
 import shirt from "../assets/shirt.png"
@@ -130,6 +129,14 @@ import shirt from "../assets/shirt.png"
     {
       name: "MaterialUi",
       icon: mui,
+    },
+    {
+      name:"Docker",
+      icon:docker
+    },
+    {
+      name:"TypeScript",
+      icon:typescript
     },
    
   ];
@@ -418,6 +425,31 @@ import shirt from "../assets/shirt.png"
       ],
       image: user,
       source_code_link: "https://github.com/Vikum-Viraj/User_Manage_App.git",
+    },
+    {
+      name: "FullStack Blog Application",
+      description:
+        "Fully fledged blog site allow user to create a blog using various categories",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Node Js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Mongo DB",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: blog,
+      source_code_link: "https://github.com/Vikum-Viraj/Blog_Site.git",
     },
   ];
   

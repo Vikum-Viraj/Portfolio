@@ -47,8 +47,8 @@ const About = () => {
     
         <motion.div variants={textVariant()}><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         <div>      <img style={{width:'280px',height:'280px',marginTop:'-250px',position:'absolute',textAlign:'center'}} src={mvn}/></div><br></br><br></br>
-        <p className={styles.sectionSubText}>About me</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <p className={styles.sectionSubText}>Overview</p>
+        <h2 className={styles.sectionHeadText}>About me</h2>
         {/*<button className='btn'> <a href ={mycv}  target="_blank" download="My Cv">Download Cv</a></button>*/}
       </motion.div>
       <motion.p
