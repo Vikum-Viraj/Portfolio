@@ -41,6 +41,7 @@ import blog from "../assets/blog.png"
 import veri from "../assets/ver.png"
 import ex from "../assets/ex.png"
 import shirt from "../assets/shirt.png"
+import vizua from "../assets/vizuamatix.jpg"
 
   export const navLinks = [
     {
@@ -64,6 +65,10 @@ import shirt from "../assets/shirt.png"
     },
     {
       title: "React Developer",
+      icon: veri,
+    },
+    {
+      title: "Vue Js Developer",
       icon: veri,
     },
     {
@@ -142,6 +147,28 @@ import shirt from "../assets/shirt.png"
   ];
   
   const experiences = [
+    {
+      title: "Trainee Software Engineer",
+      company_name: "VizuaMatix",
+      icon: vizua,
+      iconBg: "#383E56",
+      date: "September 2024 - Present",
+      points: [
+        "Currently Working as a Trainee Software Engineer"
+      ],
+    },
+    {
+      title: "Intern Software Engineer",
+      company_name: "VizuaMatix",
+      icon: vizua,
+      iconBg: "#383E56",
+      date: "March 2024 - September 2024",
+      points: [
+        "Completed 6 months Software Engineer internship at VizuaMatiz",
+        "VizuaMatix is Software Company which solves thoughest problems in Fintech and Telco domain using Agile methods and unconventional thinking to resolve business challenges quickly."
+       
+      ],
+    },
     {
       title: "BSc(Hons) in Information Technology",
       company_name: "Sri Lanka Institute of Information Technology",
