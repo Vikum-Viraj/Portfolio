@@ -33,7 +33,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} #e6f7ff`}>
            <font>Hi, I'm</font>  <span className='text-[#005ce6]'><br></br>Vikum Viraj</span>
           </h1>
-        <Feedbacks text={"Undergraduate  |  Software developer"}/>    
+        <Feedbacks text={"Software Engineer"}/>    
       
         </div>
    <div className="dis">

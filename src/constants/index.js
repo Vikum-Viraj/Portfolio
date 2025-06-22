@@ -84,7 +84,7 @@ import vizua from "../assets/vizuamatix.jpg"
       icon: veri,
     },
     {
-      title: "UI Designer",
+      title: "Spring Boot Developer",
       icon: veri,
     },
   ];
@@ -152,7 +152,7 @@ import vizua from "../assets/vizuamatix.jpg"
       company_name: "VizuaMatix",
       icon: vizua,
       iconBg: "#383E56",
-      date: "September 2024 - Present",
+      date: "September 2024 - June 24, 2025",
       points: [
         "Currently Working as a Trainee Software Engineer"
       ],

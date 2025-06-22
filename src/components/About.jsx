@@ -1,11 +1,11 @@
 import React from 'react'
 import { Tilt } from 'react-tilt'
-import {motion} from 'framer-motion'
-import {BsPatchCheckFill} from "react-icons/bs"
+import { motion } from 'framer-motion'
+import { BsPatchCheckFill } from "react-icons/bs"
 import { styles } from '../styles'
 import { services } from '../constants'
 import { SectionWrapper } from "../hoc";
-import {fadeIn,textVariant } from '../utils/motion'
+import { fadeIn, textVariant } from '../utils/motion'
 import mvn from "../assets/mvn.png"
 import "./floatnav.css"
 import mycv from "../assets/myCv.pdf"
@@ -44,9 +44,9 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-    
-        <motion.div variants={textVariant()}><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-        <div>      <img style={{width:'280px',height:'280px',marginTop:'-250px',position:'absolute',textAlign:'center'}} src={mvn}/></div><br></br><br></br>
+
+      <motion.div variants={textVariant()}><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+        <div>      <img style={{ width: '280px', height: '280px', marginTop: '-250px', position: 'absolute', textAlign: 'center' }} src={mvn} /></div><br></br><br></br>
         <p className={styles.sectionSubText}>Overview</p>
         <h2 className={styles.sectionHeadText}>About me</h2>
         {/*<button className='btn'> <a href ={mycv}  target="_blank" download="My Cv">Download Cv</a></button>*/}
@@ -55,19 +55,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       I am an undergraduate software engineer with a passion of developing
-innovative software solutions. with the keen interest in web designing. and I thrive in a team environment 
-where I can contribute my skills and knowledge while also learning from others. I believe in fostering a friendly and
-supportive atmosphere, and I enjoy educating and sharing my expertise with team
-members. I have always maintained a positive attitude to navigate through obstacles 
-with resilience and determination.I am eager to contribute my skills and passion with
-everyone who passionate about it which values innovation and teamwork.
+        Dedicated software engineer passionate about web and mobile development. Skilled in problem-solving,
+        Agile methodologies, and delivering customer-focused solutions with a commitment to quality and
+        continuous improvement. Values teamwork and collaboration to drive innovation and success.
 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-12'>
         {services.map((service, index) => (
-          <ServiceCard key={service.title}  index={index} {...service} />
+          <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
 
