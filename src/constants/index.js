@@ -42,6 +42,7 @@ import veri from "../assets/ver.png"
 import ex from "../assets/ex.png"
 import shirt from "../assets/shirt.png"
 import vizua from "../assets/vizuamatix.jpg"
+import codimite from "../assets/codimite.png"
 
   export const navLinks = [
     {
@@ -148,13 +149,23 @@ import vizua from "../assets/vizuamatix.jpg"
   
   const experiences = [
     {
+      title: "Associate Software Engineer",
+      company_name: "Codimite",
+      icon: codimite,
+      iconBg: "#383E56",
+      date: "July 2025 - Nov 26, 2025",
+      points: [
+        "Delivered end-to-end engineering solutions by integrating enterprise systems (Freshservice, Salesforce) using secure REST APIs and OAuth2, developing scalable frontends in Vue 3 and Next.js 14, building reliable backend services in Python, and implementing AI-driven analytics with Google Gemini—resulting in high-performance, user-friendly platforms with real-time data access, intelligent insights, and robust system reliability for global B2B clients."
+      ],
+    },
+    {
       title: "Trainee Software Engineer",
       company_name: "VizuaMatix",
       icon: vizua,
       iconBg: "#383E56",
       date: "September 2024 - June 24, 2025",
       points: [
-        "Currently Working as a Trainee Software Engineer"
+        "Gained hands-on experience in full-stack development by contributing to multiple production-level projects, including building intuitive UIs, implementing security features like 2FA, automating admin workflows, resolving critical bugs in Vue.js and Spring Boot systems, and enhancing performance and stability across fintech, retail, and tourism domain applications"
       ],
     },
     {
@@ -176,7 +187,7 @@ import vizua from "../assets/vizuamatix.jpg"
       iconBg: "#383E56",
       date: "july 2021 - to present",
       points: [
-        "Currently, pursuing  a Bsc(Hons) degree programme specialising in software engineering in Sri Lanaka Institute of Information Technology",
+        "Completed Bsc(Hons) degree programme specializing in software engineering in Sri Lanka Institute of Information Technology",
        
       ],
     },
@@ -187,7 +198,7 @@ import vizua from "../assets/vizuamatix.jpg"
       iconBg: "#E6DEDD",
       date: "june 2020 - july 2021",
       points: [
-        "Orel It is a global technology company that provides Artifical Intelligence Services and Machine Vision Technology based solutions. My role was processing the data used to feed AI models.",
+        "Orel It is a global technology company that provides Artificial Intelligence Services and Machine Vision Technology based solutions. My role was processing the data used to feed AI models.",
        
       ],
     },

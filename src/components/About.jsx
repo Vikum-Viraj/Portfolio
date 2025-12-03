@@ -1,14 +1,10 @@
-import React from 'react'
-import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
-import { BsPatchCheckFill } from "react-icons/bs"
 import { styles } from '../styles'
 import { services } from '../constants'
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from '../utils/motion'
 import mvn from "../assets/mvn.png"
 import "./floatnav.css"
-import mycv from "../assets/myCv.pdf"
 
 const ServiceCard = ({ index, title, icon }) => (
 
