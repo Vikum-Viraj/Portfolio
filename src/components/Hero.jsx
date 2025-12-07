@@ -14,7 +14,7 @@ import git from "../assets/git.png"
 import ins from "../assets/ins.png"
 import "./floatnav.css"
 import { Link } from "react-router-dom";
-import mv from "../assets/mv.jpg"
+import mv from "../assets/mvn.jpg"
 
 const Hero = () => {
 
